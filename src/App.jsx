@@ -9,26 +9,7 @@ import Filter from './components/Filter/Filter';
 function App() {
 
   //sempre que tiver que manipular valor tem que usar useState, e tem que estar dentro do scopo
-  const [todos, setTodos] = useState([
-    {
-      id: 1,
-      text: "Criar funcionalidade x no sistema",
-      category: "Trabalho",
-      isCompleted: false
-    },
-    {
-      id: 2,
-      text: "Ir para o curso",
-      category: "Estudos",
-      isCompleted: true
-    },
-    {
-      id: 3,
-      text: "Ir para Academia",
-      category: "Saude",
-      isCompleted: true
-    },
-  ]);
+  const [todos, setTodos] = useState([]);
 
   const [search, setSearch] = useState("");
 
